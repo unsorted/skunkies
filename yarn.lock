@@ -1392,10 +1392,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@next/react-dev-overlay@9.3.7-canary.6":
-  version "9.3.7-canary.6"
-  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.3.7-canary.6.tgz#cf0084aa717cacabe12763dd8083ab0513de1227"
-  integrity sha512-NEHFjhFeS/NThk/F0xMreMxrbB1Z+wpj7/Pdrjh0XjBRMxJsnmZg2izWsbe2+UkIAwY8q4Ob9Qj2GnSb/WxS0A==
+"@next/react-dev-overlay@9.3.7-canary.9":
+  version "9.3.7-canary.9"
+  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.3.7-canary.9.tgz#944850b8eee8a96d96549c3c0ebec78a0765b2d3"
+  integrity sha512-bPJuyjxw/naUSDU4i6f55Uo8DnnHPNyTLtf2+cuF+1zG1rbAThovy6B07FtQNqLT0EUHr+MM3F/zvCJn6wyjQw==
   dependencies:
     "@babel/code-frame" "7.8.3"
     anser "1.4.9"
@@ -1406,10 +1406,10 @@
     stacktrace-parser "0.1.9"
     strip-ansi "6.0.0"
 
-"@next/react-refresh-utils@9.3.7-canary.6":
-  version "9.3.7-canary.6"
-  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.3.7-canary.6.tgz#40a683a9f4cf26201fc364478aed82a46a930123"
-  integrity sha512-frz8mZDgxdqxgV+yzHqMyTWN6uYvPgnCSn12UFMzwVrEC/NUahjXqxe1pM/RfUr36JV11cl/vqIDJYU9/JfUHQ==
+"@next/react-refresh-utils@9.3.7-canary.9":
+  version "9.3.7-canary.9"
+  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.3.7-canary.9.tgz#3d694aad705c4c66d9f0ed879b41e2c811e25dad"
+  integrity sha512-03Y9+r/YSERuFozeD3IoOwX1YDmo5A8N0iVGaRW+TxS1xxpzTxMwxxuaTsu14oEmPBMtW0Muua+E1GgVwzqpIg==
 
 "@popmotion/easing@^1.0.1", "@popmotion/easing@^1.0.2":
   version "1.0.2"
@@ -5095,10 +5095,10 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-framer-motion@^2.0.0-beta.59:
-  version "2.0.0-beta.59"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-2.0.0-beta.59.tgz#44f5aed7f461f8928c023031e49ddca680d45104"
-  integrity sha512-hNQfG718NoOWHdrz2TKBUG/p2Xx7RKao5EXsatyv41CY4xtCTpOR4JlZ4S8ugpCRT52tLTns+JDICWsGBTm5sw==
+framer-motion@^2.0.0-beta.61:
+  version "2.0.0-beta.61"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-2.0.0-beta.61.tgz#15a520a88050f97915353dc53bab57de21d37ba3"
+  integrity sha512-fRXCjt8Kr/743iex7ahlmCaZKDWlV8lVwxNdwD7UK70pO16Fq3EWqQLyeMoDs/WDLyAwG7ScnTWTEaZSyi5bNg==
   dependencies:
     "@popmotion/easing" "^1.0.2"
     "@popmotion/popcorn" "^0.4.2"
@@ -7866,10 +7866,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.3.7-canary.6:
-  version "9.3.7-canary.6"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.3.7-canary.6.tgz#d2ddd664f8dcbe2c933566e14897b079c947c42b"
-  integrity sha512-c5iwbZzq/dqk7GEmuxyiySP1AFgQXLsYXcnR0DH6LTOQLfzlRg98MIVJbROHD4UeKXIB2jb2iotWCKwv6px81w==
+next@^9.3.7-canary.9:
+  version "9.3.7-canary.9"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.3.7-canary.9.tgz#ddb5ccc05aa80a0b9016d315de49f6b1fbaa727f"
+  integrity sha512-u6AE4AX5VUO3DnPPAKl/p7A0CCkUVeLUsdkN8Q+3CrdelEW01T2KxN7yU/4H0qz2bvIB3qhQolWBeEQGz8dUvQ==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.3.0"
     "@babel/core" "7.7.2"
@@ -7887,8 +7887,8 @@ next@^9.3.7-canary.6:
     "@babel/preset-react" "7.7.0"
     "@babel/preset-typescript" "7.7.2"
     "@babel/runtime" "7.7.2"
-    "@next/react-dev-overlay" "9.3.7-canary.6"
-    "@next/react-refresh-utils" "9.3.7-canary.6"
+    "@next/react-dev-overlay" "9.3.7-canary.9"
+    "@next/react-refresh-utils" "9.3.7-canary.9"
     babel-plugin-syntax-jsx "6.18.0"
     babel-plugin-transform-define "2.0.0"
     babel-plugin-transform-react-remove-prop-types "0.4.24"
