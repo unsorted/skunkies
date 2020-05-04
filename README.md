@@ -2,6 +2,12 @@
 
 Learning playground
 
+## Clone
+
+```
+git clone https://github.com/unsorted/skunkies.git
+```
+
 ## Install
 
 ```
