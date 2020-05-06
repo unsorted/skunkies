@@ -2,6 +2,10 @@
 
 Learning playground
 
+## Pre-requisites
+
+> You need nodejs > 10.13 installed on your local machine (install it from [here](https://nodejs.org/en/))
+
 ## Clone
 
 ```
