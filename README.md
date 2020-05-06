@@ -11,12 +11,16 @@ git clone https://github.com/unsorted/skunkies.git
 ## Install
 
 ```
+$ npm install   
+# or
 $ yarn install
 ```
 
 ## Run
 
 ```
+$ npm dev
+# or
 $ yarn dev
 ```
 
