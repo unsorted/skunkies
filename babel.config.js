@@ -21,6 +21,7 @@ module.exports = {
         'class-properties': {},
       },
     ],
+    ['@emotion/babel-preset-css-prop'],
   ],
   plugins: [aliasPlugin, 'macros', '@emotion/babel-plugin'],
 };
