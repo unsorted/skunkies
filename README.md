@@ -4,7 +4,7 @@ Learning playground
 
 ## Pre-requisites
 
-> You need nodejs > 10.13 installed on your local machine (install it from [here](https://nodejs.org/en/))
+> You need nodejs 12.x installed on your local machine (install it from [here](https://nodejs.org/en/))
 
 ## Clone
 
@@ -15,7 +15,7 @@ git clone https://github.com/unsorted/skunkies.git
 ## Install
 
 ```
-$ npm install   
+$ npm install
 # or
 $ yarn install
 ```
@@ -37,7 +37,6 @@ $ yarn dev
 Create a file in `./src/pages` called `hello.tsx` and copy/paste this content
 
 ```tsx
-
 // This is react functional component
 
 const HelloRoute = () => {
@@ -46,20 +45,16 @@ const HelloRoute = () => {
     <div>
       <h3>Hello biloute !</h3>
     </div>
-  )
-}
+  );
+};
 
 export default HelloRoute;
 ```
 
 > And open your browser on http://localhost:3000/hello
 
-
 ## Documentation
-
-
 
 ## Deployments
 
-- Vercel: https://skunkies.now.sh/
 - Netlify: https://infallible-hamilton-e182d0.netlify.app/
