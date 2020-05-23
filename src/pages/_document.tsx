@@ -7,18 +7,24 @@ type Props = {
 } & DocumentProps;
 
 export default class MyDocument extends Document<Props> {
-  static async getInitialProps({ renderPage }: DocumentContext) {
-    const page = await renderPage();
-    const styles = extractCritical(page.html);
-    return { ...page, ...styles };
+  static async getInitialProps(ctx: DocumentContext) {
+    const initialProps = await Document.getInitialProps(ctx);
+    const styles = extractCritical(initialProps.html);
+    return {
+      ...initialProps,
+      styles: (
+        <>
+          {initialProps.styles}
+          <style data-emotion-css={styles.ids.join(' ')} dangerouslySetInnerHTML={{ __html: styles.css }} />
+        </>
+      ),
+    };
   }
 
   render() {
     return (
       <Html lang="en">
-        <Head>
-          <style data-emotion-css={this.props.ids.join(' ')} dangerouslySetInnerHTML={{ __html: this.props.css }} />
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
