@@ -2,7 +2,7 @@
  * @todo tsyringe ioc
  */
 
-import { IMarkdownConverter, RemarkConverter } from '_core/markdown';
+import { IMarkdownConverter, RemarkConverter } from '@/core/markdown';
 
 export const markdownConverterSingleton = () => {
   let instance: null | IMarkdownConverter;

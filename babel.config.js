@@ -1,15 +1,3 @@
-const { getBabelAliases } = require('./config/build/babel-aliases');
-
-const aliasPlugin = [
-  'module-resolver',
-  {
-    root: ['.'],
-    alias: {
-      ...getBabelAliases(),
-    },
-  },
-];
-
 module.exports = {
   presets: [
     [
@@ -23,5 +11,5 @@ module.exports = {
     ],
     ['@emotion/babel-preset-css-prop'],
   ],
-  plugins: [aliasPlugin, 'macros', '@emotion/babel-plugin'],
+  plugins: ['macros', '@emotion/babel-plugin'],
 };

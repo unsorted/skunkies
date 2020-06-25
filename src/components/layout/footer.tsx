@@ -1,4 +1,4 @@
-import { Container } from '_components/blog/container';
+import { Container } from '@/components/blog/container';
 
 export const Footer: React.FC<{ children?: never }> = () => {
   return (

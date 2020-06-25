@@ -1,14 +1,14 @@
 import { useRouter } from 'next/router';
 import ErrorPage from 'next/error';
-import { Container } from '_components/blog/container';
-import { PostBody } from '_components/blog/post-body';
-import { Header } from '_components/layout/header';
-import { PostHeader } from '_components/blog/post-header';
-import { Layout } from '_components/layout/layout';
-import { getPostBySlug, getAllPosts } from '_features/blog/blog-posts.repo';
-import { PostTitle } from '_components/blog/post-title';
+import { Container } from '@/components/blog/container';
+import { PostBody } from '@/components/blog/post-body';
+import { Header } from '@/components/layout/header';
+import { PostHeader } from '@/components/blog/post-header';
+import { Layout } from '@/components/layout/layout';
+import { getPostBySlug, getAllPosts } from '@/features/blog/blog-posts.repo';
+import { PostTitle } from '@/components/blog/post-title';
 import Head from 'next/head';
-import { markdownConverterSingleton } from '_config/di-container';
+import { markdownConverterSingleton } from '@/config/di-container';
 
 const markdownConverter = markdownConverterSingleton().getInstance();
 

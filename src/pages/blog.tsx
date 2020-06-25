@@ -1,9 +1,9 @@
-import { Container } from '_components/blog/container';
-import { MoreStories } from '_components/blog/more-stories';
-import { HeroPost } from '_components/blog/hero-post';
-import { Intro } from '_components/blog/intro';
-import { Layout } from '_components/layout/layout';
-import { getAllPosts } from '_features/blog/blog-posts.repo';
+import { Container } from '@/components/blog/container';
+import { MoreStories } from '@/components/blog/more-stories';
+import { HeroPost } from '@/components/blog/hero-post';
+import { Intro } from '@/components/blog/intro';
+import { Layout } from '@/components/layout/layout';
+import { getAllPosts } from '@/features/blog/blog-posts.repo';
 import Head from 'next/head';
 
 type Props = {

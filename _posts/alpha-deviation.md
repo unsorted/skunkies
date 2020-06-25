@@ -10,7 +10,7 @@ author:
 
 Lorem ipsum dolor sit amet,
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/q9bSwlODef4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B_ymY0xG0LI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Some code examples
 

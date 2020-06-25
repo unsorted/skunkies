@@ -1,5 +1,5 @@
-import { Avatar } from '_components/blog/avatar';
-import { DateFormater } from '_components/blog/date-formater';
+import { Avatar } from '@/components/blog/avatar';
+import { DateFormater } from '@/components/blog/date-formater';
 import { CoverImage } from './cover-image';
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
