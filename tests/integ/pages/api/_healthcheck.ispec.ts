@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { createMocks } from 'node-mocks-http';
 import { EventEmitter } from 'events';
-import healthCheckRoute from '_pages/api/_healthcheck';
+import healthCheckRoute from '@/pages/api/_healthcheck';
 
 const formatYmd = (dateStr: string) => {
   const date = new Date(Date.parse(dateStr));

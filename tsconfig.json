@@ -19,14 +19,14 @@
     "jsx": "preserve",
     "paths": {
       "test-utils": ["config/jest/test-utils"],
-      "_core/*": ["src/core/*"],
-      "_infra/*": ["src/infra/*"],
-      "_config/*": ["src/config/*"],
-      "_features/*": ["src/features/*"],
-      "_assets/*": ["src/assets/*"],
-      "_public/*": ["public/*"],
-      "_components/*": ["src/components/*"],
-      "_pages/*": ["src/pages/*"]
+      "@/core/*": ["src/core/*"],
+      "@/infra/*": ["src/infra/*"],
+      "@/config/*": ["src/config/*"],
+      "@/features/*": ["src/features/*"],
+      "@/assets/*": ["src/assets/*"],
+      "@/public/*": ["public/*"],
+      "@/components/*": ["src/components/*"],
+      "@/pages/*": ["src/pages/*"]
     }
   },
   "exclude": ["dist", ".next", "out", "docs", "public", "coverage"],

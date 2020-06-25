@@ -1,12 +1,12 @@
 const babelAliases = {
-  _config: './src/config',
-  _core: './src/core',
-  _assets: './src/assets',
-  _features: './src/features',
-  _public: './public',
-  _components: './src/components',
-  _themes: './src/themes',
-  _pages: './src/pages',
+  '@/config': './src/config',
+  '@/core': './src/core',
+  '@/assets': './src/assets',
+  '@/features': './src/features',
+  '@/public': './public',
+  '@/components': './src/components',
+  '@/themes': './src/themes',
+  '@/pages': './src/pages',
 };
 
 /**

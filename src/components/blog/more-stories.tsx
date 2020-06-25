@@ -1,4 +1,4 @@
-import { PostPreview } from '_components/blog/post-preview';
+import { PostPreview } from '@/components/blog/post-preview';
 
 type Props = {
   posts: any[];

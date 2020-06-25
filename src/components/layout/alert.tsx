@@ -1,4 +1,4 @@
-import { Container } from '_components/blog/container';
+import { Container } from '@/components/blog/container';
 import cn from 'classnames';
 
 type Props = {
