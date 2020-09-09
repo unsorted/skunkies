@@ -9,7 +9,7 @@ const formatYmd = (dateStr: string) => {
 };
 
 describe('/api/_healthcheck', () => {
-  it('should reply with 200 and a valid payload ', async () => {
+  it('should reply with 200 and a valid payload', async () => {
     const { req, res } = createMocks<NextApiRequest, NextApiResponse>(
       {},
       {
