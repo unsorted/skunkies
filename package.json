@@ -61,7 +61,8 @@
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-lazyload": "^3.0.0"
+    "react-lazyload": "^3.0.0",
+    "twin.macro": "^1.8.1"
   },
   "devDependencies": {
     "@tailwindcss/ui": "^0.6.0",
