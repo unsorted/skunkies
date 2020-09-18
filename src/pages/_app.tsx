@@ -3,15 +3,27 @@ import { AppProps } from 'next/app';
 import { CacheProvider } from '@emotion/react';
 import { cache } from '@emotion/css';
 import { globalStyles } from '../styles/styles';
+import { Provider } from 'next-auth/client';
 
 import '../styles/index.css';
 
+const getSite = () => {
+  if (process.env.NODE_ENV === 'production') {
+    return 'https://skunkies.soluble.vercel.app';
+  }
+  return process.env.SITE;
+};
+
 const MyApp = ({ Component, pageProps }: AppProps) => {
+  const { session } = pageProps;
   return (
-    <CacheProvider value={cache}>
-      {globalStyles}
-      <Component {...pageProps} />
-    </CacheProvider>
+    <Provider options={{ site: getSite() }} session={session}>
+      <CacheProvider value={cache}>
+        {globalStyles}
+        <h1>Using site {getSite()}</h1>
+        <Component {...pageProps} />
+      </CacheProvider>
+    </Provider>
   );
 };
 
