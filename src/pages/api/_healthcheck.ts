@@ -11,6 +11,9 @@ const healthCheckRoute = async (req: NextApiRequest, res: NextApiResponse) => {
   const payload = {
     success: true,
     timestamp: new Date().toISOString(),
+    env: {
+      GITHUB_ID: process.env.GITHUB_ID,
+    },
   };
 
   res.status(200).send(JSON.stringify(payload, undefined, 2));
