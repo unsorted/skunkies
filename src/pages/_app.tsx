@@ -3,15 +3,19 @@ import { AppProps } from 'next/app';
 import { CacheProvider } from '@emotion/react';
 import { cache } from '@emotion/css';
 import { globalStyles } from '../styles/styles';
+import { Provider } from 'next-auth/client';
 
 import '../styles/index.css';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
+  const { session } = pageProps;
   return (
-    <CacheProvider value={cache}>
-      {globalStyles}
-      <Component {...pageProps} />
-    </CacheProvider>
+    <Provider options={{ site: process.env.SITE }} session={session}>
+      <CacheProvider value={cache}>
+        {globalStyles}
+        <Component {...pageProps} />
+      </CacheProvider>
+    </Provider>
   );
 };
 

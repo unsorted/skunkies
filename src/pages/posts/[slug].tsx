@@ -9,6 +9,7 @@ import { getPostBySlug, getAllPosts } from '@/features/blog/blog-posts.repo';
 import { PostTitle } from '@/components/blog/post-title';
 import Head from 'next/head';
 import { markdownConverterSingleton } from '@/config/di-container';
+import { AuthLayout } from '@/components/layout/auth-layout';
 
 const markdownConverter = markdownConverterSingleton().getInstance();
 
@@ -24,7 +25,7 @@ export default function Post({ post, preview }: Props) {
     return <ErrorPage statusCode={404} />;
   }
   return (
-    <Layout preview={preview}>
+    <AuthLayout preview={preview}>
       <Container>
         <Header />
         {router.isFallback ? (
@@ -48,7 +49,7 @@ export default function Post({ post, preview }: Props) {
           </>
         )}
       </Container>
-    </Layout>
+    </AuthLayout>
   );
 }
 

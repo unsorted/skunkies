@@ -1,0 +1,21 @@
+export const allowedUsers = {
+  github: [
+    'belgattitude',
+    'gagalago',
+    'charlesdg',
+    'michaelvalette',
+    'dugzino',
+    'KennethVerhelpen',
+    'alexbrebu',
+    'adrianu197',
+    'irma307',
+    'emcee22',
+    'mihaic195',
+    'R4t4x3s',
+    'relu',
+    'rrampaer',
+    'woidda',
+    'bogdanbalc',
+    'yannickjoachim',
+  ],
+};
