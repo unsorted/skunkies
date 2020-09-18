@@ -6,6 +6,8 @@ import { globalStyles } from '../styles/styles';
 import { Provider } from 'next-auth/client';
 
 import '../styles/index.css';
+import '../styles/blog/global.scss';
+
 import { siteConfig } from '@/config/site.config';
 
 const { siteUrl } = siteConfig;

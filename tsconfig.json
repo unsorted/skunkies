@@ -26,7 +26,8 @@
       "@/assets/*": ["src/assets/*"],
       "@/public/*": ["public/*"],
       "@/components/*": ["src/components/*"],
-      "@/pages/*": ["src/pages/*"]
+      "@/pages/*": ["src/pages/*"],
+      "@/styles/*": ["src/styles/*"]
     }
   },
   "exclude": ["dist", ".next", "out", "docs", "public", "coverage"],

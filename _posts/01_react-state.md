@@ -8,10 +8,10 @@ author:
   picture: '/assets/authors/sebastien.jpg'
 ---
 
-Yep it's 2020, nice to write a sumup of the react state at @sortlist. So let's dig
+Yep 2020 is almost over, nice to write a sumup of the react state at @sortlist. So let's dig
 into it with Georges Benson in the background, cause it's sunny today.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iQ1qpwkXXqM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="youtube-iframe-embed" src="https://www.youtube-nocookie.com/embed/iQ1qpwkXXqM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introduction
 
@@ -21,20 +21,15 @@ is that maintaining an unsupported technology would definitely be a dead end. Th
 
 And it was good...
 
-Then came the how, whit what
+then came a series of questions, opinions, statements... cause when we started
+we tried to communicate and talk about it.
 
-This blog tried to shed light on the process of choosing how, when
+> Why react ? - Isn't it better to go Angular 2 ? - Typescript is slow ? -
+> How long will it take ? - Who will work on this ? - I don't like it -
+> I like graphql - There's too much code to migrate, it's impossible. why not using
+> bootstrap, semantic-ui, ui-kit ? - I don't have time - Will fail - Will be ready next week.
 
-But Not yet by whom, how and when.
-
-But not yet the how... and this  
-Exit paths requires some kind a plan, a strategy
-
-A migration and exit strategy is a long process.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
-
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+Then over the months we went through. Not without a plan, so here's some
 
 ## Lorem Ipsum
 
