@@ -3,8 +3,8 @@ import Providers from 'next-auth/providers';
 import { NextApiRequest, NextApiResponse } from 'next';
 import { GithubAuthInterceptors } from '@/core/auth/auth.interceptors';
 
-const options: InitOptions = {
-  //site: process.env.VERCEL_URL,
+const options: InitOptions & { site: string } = {
+  site: process.env.SITE ?? 'http://localhost:3020',
   providers: [
     /*
     Providers.Email({
