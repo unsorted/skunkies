@@ -9,7 +9,7 @@ author:
 ---
 
 Yep 2020 is almost over, nice to write a sumup of the react state at @sortlist. So let's dig
-into it with Georges Benson in the background, cause it's sunny today.
+into it in music.
 
 <iframe class="youtube-iframe-embed" src="https://www.youtube-nocookie.com/embed/iQ1qpwkXXqM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
