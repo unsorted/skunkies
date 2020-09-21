@@ -16,7 +16,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   const { session } = pageProps;
   console.debug(`Using siteUrl: ${siteUrl}`);
   return (
-    <Provider options={{ site: siteUrl }} session={session}>
+    <Provider options={{ baseUrl: siteUrl }} session={session}>
       <CacheProvider value={cache}>
         {globalStyles}
         <Component {...pageProps} />
