@@ -15,21 +15,6 @@ into it in music.
 
 ## Introduction
 
-I joined Sortlist around in December 2019 as a React frontend developer. At that time it was not really clear
-how to initiate an AngularJs exit. Which technologies, stacks, languages, design... ? But what was sure
-is that maintaining an unsupported technology would definitely be a dead end. The **Why?** was partially answered.
-
-And it was good...
-
-then came a series of questions, opinions, statements... cause when we started
-we tried to communicate and talk about it.
-
-> Why react ? - Isn't it better to go Angular 2 ? - Typescript is slow ? -
-> How long will it take ? - Who will work on this ? - I don't like it -
-> I like graphql - There's too much code to migrate, it's impossible. why not using
-> bootstrap, semantic-ui, ui-kit ? - I don't have time - Will fail - Will be ready next week.
-
-Then over the months we went through. Not without a plan, so here's some
 
 ## Lorem Ipsum
 
